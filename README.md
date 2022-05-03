@@ -90,8 +90,7 @@ As the database in a file attached, we need to configure SSH first on Render, an
 *Sidenote : how SSH works on Render*
 1. We need to [generate a public key](https://render.com/docs/ssh-generating-keys) (to do on any local computer)
 2. Then we need to[ add this key to Render account](https://render.com/docs/ssh-keys). They key will be usable for any app.
-3. Then, the SSH url to a particular app, can be found in the dashboard, here :
-![image](/Users/dd/Library/Containers/co.noteplan.NotePlan3/Data/Library/Application Support/co.noteplan.NotePlan3/Notes/👨‍💻 Code/1 - My projects doc_attachments/B16CFCDC-B20E-49EA-A0D1-F9187416B200.png)
+3. Then, the SSH url to a particular app, can be found in the dashboard.
 4. Note than using `scp` is [almost the same command](https://render.com/docs/disks#transferring-files) than `ssh`. WARN: scp command must NOT be run inside a ssh prompt, but inside a local prompt.
 
 **IMPORTANT** : when rebuilding the repo from sources, we will need to copy the `id_ed25519` (in addition to env files) and re-run the building phase, sothat file this is copied to `/root/.ssh` folder.
