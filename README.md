@@ -1,5 +1,3 @@
-# 1 - Projects doc
-
 *This is a personal (and not very organized yet) note that I use to remember my tech choices. It's used as a personal documentation too. Instead of writing one per projet in README.md, I write it here as there are more similarities than differences between my personal projects.*
 
 # Documented projects
